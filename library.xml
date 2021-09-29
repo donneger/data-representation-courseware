@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyLibrary>
+    <Book category="Technical">
+        <Title>"Learning Tableau 2019"</Title>
+        <Author>"Joshua N.Milligan"</Author>
+        <ISBN>"978-1-78883-952-5"</ISBN>
+        <Title>"Think Python"</Title>
+        <Author>"Allen B.Downey"</Author>
+        <ISBN>"978-1-491-93936-9"</ISBN>
+    </Book>
+     <Book category="Cookery">
+        <Title>"5 Ingredients"</Title>
+        <Author>"Jamie Oliver"</Author>
+        <ISBN>"978-0-718-18772-9"</ISBN>
+        <Title>"Two Kitchens"</Title>
+        <Author>"Rachel Roddy"</Author>
+        <ISBN>"978-1-4722-4841-1"</ISBN>
+    </Book>
+</MyLibrary>
