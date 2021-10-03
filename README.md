@@ -9,5 +9,5 @@ Each book must have
 * Title
 * Author
 * ISBN
-For the porpose of this assignment 2 examples of each book category are p[rovided. ]
+For the porpose of this assignment 2 examples of each book category are provided.
 
