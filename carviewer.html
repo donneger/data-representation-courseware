@@ -2,11 +2,10 @@
 <html>
   
 <head>
-  <title>Car Viewer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
 
-<style>
-table, th, td {border: 1px solid black;}
-</style>
+  <title>Car Viewer</title>
 </head>
   
 <body style="background:lightblue;">
@@ -15,7 +14,8 @@ table, th, td {border: 1px solid black;}
     <h2>All Cars</h2>
   <h2>Create a Update to this Car</h2>
  
-    <table>
+    <table class="table table-hover table-bordered">
+    <thead class = "thead-dark">
   <tr>
     <th>Reg</th>
     <th>Make</th>
@@ -24,6 +24,7 @@ table, th, td {border: 1px solid black;}
     <th>Update</th>
     <th>Delete</th>
   </tr>
+</thead>
   <tr>
     <td>191 MO 123</td>
     <td>Ford</td>
@@ -33,18 +34,18 @@ table, th, td {border: 1px solid black;}
    <td><button>Delete</button></td>
       </tr>
       <tr>
-   <td>191 MO 123</td>
-    <td>Ford</td>
-    <td>Mondeo</td>
-    <td>25,000</td>
+   <td>12 D 123</td>
+    <td>Fiat</td>
+    <td>Punto</td>
+    <td>4,000</td>
     <td><button>Update</button></td>
    <td><button>Delete</button></td>
       </tr>
       <tr>
-    <td>191 MO 123</td>
-    <td>Ford</td>
-    <td>Mondeo</td>
-    <td>25,000</td>
+    <td>08 G 123</td>
+    <td>Nissan</td>
+    <td>Almera</td>
+    <td>500</td>
     <td><button>Update</button></td>
    <td><button>Delete</button></td>
       </tr>
@@ -61,11 +62,11 @@ table, th, td {border: 1px solid black;}
     <option value="volvo">Ford</option>
     <option value="saab">Fiat</option>
     <option value="fiat">Nissan</option>
-  </select>
+  </select><br>
    <label>Model</label>
   <input name="Model"><br>
     <label>Price</label>
-  <input name="Price"> 
+  <input name="Price"><br> 
   <button>Create</button> 
   <button>Update</button> 
     
